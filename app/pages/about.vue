@@ -2,13 +2,6 @@
 useHead({
   title: "About"
 })
-
-definePageMeta({
-  layout: '2',
-  layoutTransition: {
-    name: 'slide-in',
-  },
-})
 </script>
 
 <template>

@@ -35,7 +35,10 @@ useSeoMeta({
 <style>
 .page-enter-active,
 .page-leave-active {
-  transition: all 0.4s;
+  /* transition: all 0.4s; */
+
+  /* Cool we can use tilwind here too! */
+  @apply transition-all duration-300
 }
 
 .page-enter-from,
