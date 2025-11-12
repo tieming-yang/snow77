@@ -1,9 +1,3 @@
-<template>
-  <div>
-    <NuxtImg src="/img/logo-binary.png" alt="image" width="400" height="400" class="rounded-full" />
-  </div>
-</template>
-
 <script lang="ts" setup>
 
 definePageMeta({
@@ -11,5 +5,13 @@ definePageMeta({
 })
 
 </script>
+
+<template>
+  <div>
+    <h1>Home</h1>
+    <NuxtLink to="/about">About page</NuxtLink>
+  </div>
+
+</template>
 
 <style></style>

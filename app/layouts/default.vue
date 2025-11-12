@@ -1,11 +1,3 @@
-<template>
-  <div class="">
-    <p>Some default layout content shared across all pages</p>
-
-    <slot />
-  </div>
-</template>
-
 <script lang="ts" setup>
 
 const route = useRoute()
@@ -15,5 +7,13 @@ useHead({
 })
 
 </script>
+
+<template>
+  <div class="">
+    <NuxtImg src="/img/logo-binary.png" alt="image" width="400" height="400" class="rounded-full" />
+    <slot />
+  </div>
+</template>
+
 
 <style></style>
