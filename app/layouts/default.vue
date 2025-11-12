@@ -10,7 +10,7 @@ useHead({
 
 <template>
   <div class="">
-    <NuxtImg src="/img/logo-binary.png" alt="image" width="400" height="400" class="rounded-full" />
+    <NuxtImg src="/img/logo-binary.png" alt="image" width="33" height="33" class="rounded-full m-1" />
     <slot />
   </div>
 </template>
